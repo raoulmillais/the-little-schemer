@@ -58,5 +58,5 @@
 (eq? 'a 'a) ; => true
 (eq? 'a 'b) ; => false
 (eq? '('a) '('a)) ; => false
-(eq? (car '('Mary 'had 'a 'little 'lamb) 'Mary)) 
+(eq? (car '('Mary 'had 'a 'little 'lamb)) 'Mary)
 ; => true according to the book but false in guile.
